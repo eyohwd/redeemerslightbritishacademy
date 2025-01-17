@@ -1,6 +1,6 @@
 import './about.css';
-import ab1 from '../../assets/ab1.jpg'
-import play1 from '../../assets/play1.jpg'
+import ab1 from '../../assets/ab1.png'
+import play1 from '../../assets/play1.png'
 
 const About = ({setPlayState}) => {
   return (
@@ -10,21 +10,37 @@ const About = ({setPlayState}) => {
         <img src={play1} alt="" className='play' onClick={()=>setPlayState(true)} />
       </div>
       <div className="about-right">
-        <h3>ABOUT PRIMARY</h3>
-        <h2>Nuturing Tomorrow Leaders Today</h2>
-        <p>Embark on a transformative eduational journey with Our
-           primary comprehensive education programs. Our cutting-edge curriculum 
-           is designed to empower children with the knowledge, skill and experience needed to excel
-           in the dynamic field of education.
+        <h3>Our Mission:</h3>
+        <p>At Redeemer's Light British Academy, We aim to inspire young minds
+           and hearts to learn and serve. We provide a comprehensive education that
+           integrates faith,academics, information technology, soft skill and character
+           development, preparing students to live out their faith with confidence, compassion, 
+           respect, good personality and integrity.
         </p>
-        <p>With a focus on innovation, hands on learning, and personalized mentorship,
-            our programs prepare aspiring educators to make ameaningful impact in classrooms,
-            school ans communities
+        <h3>Our Vision:</h3>
+        <p>Redeemer's Light British Academy envisions a future where our
+          students become confident, compassionate and courageous leaders empowered
+          by their faith and academic exellence to make a positive difference in their
+           communities and beyond.
         </p>
-        <p>Whether you aspire to become a teacher, adminstrator, counselor or educational leader,
-            diverse range of programs offers the perfect pathway to achieve your goals and 
-            unlock your full potential in shapping the future of education.
+        <h3>Academic Programme:</h3>
+        <p>We offer a comprehensive curriculum that includes:
+          -Nursery and Primary School Programme (Reception to year 6). In the preschool
+          we implement the early year foundation programme combined with the Montessorimethod.
+          In the elementary school, we inplement the British curriculum with ablend 
+          of local curriculum.
         </p>
+        <h3>Facilities:</h3>
+         <p>Our state-of-the-art facilities include: <br/>
+          - Well equipped airconditioned classrooms and laboratories<br/>
+          - Library and resource center<br/>
+          - Sport facilities (swimmming pool, swing, seesaw etc.)<br/>
+          - Art and music studios <br/>
+          - Beautiful playground<br/>
+          - Language Class for Diction and Eloquent<br/>
+          - Poise and etiquette (dining area) etc
+
+         </p>
       </div>
     </div>
   );

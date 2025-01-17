@@ -1,10 +1,10 @@
 import './title.css';
 
-const Title = ({subTitle, title}) => {
+const Title = ({subTitle, title, curricu}) => {
   return (
     <div className='title'>
+      <h2 className={curricu}>{title}</h2>
       <p>{subTitle}</p>
-      <h2>{title}</h2>
     </div>
   );
 }

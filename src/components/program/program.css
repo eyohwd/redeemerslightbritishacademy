@@ -1,6 +1,6 @@
 .programs{
     margin: 80px auto;
-    width: 90%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -31,9 +31,9 @@
     flex-direction: column;
     color: #fff;
     cursor: pointer;
-    opacity: 0;
-    padding-top: 70%;
-    transition: 0.4s;
+    opacity: 1;
+    
+    
 }
 
 .caption .icon{
@@ -44,19 +44,19 @@
     font-weight: 300;
 }
 
-.program:hover .caption{
-    opacity: 1;
-    padding-top: 0;
-}
+
 
 /* ------- media query ------ */
 
 @media (max-width: 650px){
     .programs{
         flex-direction: column;
+        
     }
     .program{
         flex-basis: 100%;
         margin: 20px;
+        width: 100%;
+        
     }
 }

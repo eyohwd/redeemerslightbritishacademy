@@ -1,5 +1,5 @@
 import './videoPlayer.css';
-import video from '../../assets/educityshcool.mp4';
+import video from '../../assets/elementaryvid.mp4';
 import { useRef } from 'react';
 
 

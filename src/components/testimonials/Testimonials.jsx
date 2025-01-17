@@ -38,15 +38,14 @@ const Testimonials = () => {
             <div className="slide">
               <div className="user-info">
                 <img src={user1} alt="" />
-                <div>
-                  <h3>William Jackson</h3>
-                  <span>Educity, Nigeria</span>
+                <div className='details'>
+                  <h3>Bode Jackson</h3>
+                  
                 </div>
               </div>
               <p>Choosing to pursue my primary school education at 
-                EducityFestac was one of the best decision i'v ever made.
-                The supportive community, state of the art facilities and
-                 commitment to academic excellencehave truely exceeded my expectation.
+                Redeemer's Light British Academy was one of the best decision i'v ever made.
+                
 
               </p>
             </div>
@@ -56,15 +55,14 @@ const Testimonials = () => {
             <div className="slide">
               <div className="user-info">
                 <img src={user2} alt="" />
-                <div>
+                <div className='details'>
                   <h3>Femi Badmus</h3>
-                  <span>Educity, Nigeria</span>
+                  
                 </div>
               </div>
               <p>Choosing to pursue my primary school education at 
-                EducityFestac was one of the best decision i'v ever made.
-                The supportive community, state of the art facilities and
-                 commitment to academic excellencehave truely exceeded my expectation.
+              Redeemer's Light British Academy was one of the best decision i'v ever made.
+                
 
               </p>
             </div>
@@ -74,15 +72,14 @@ const Testimonials = () => {
             <div className="slide">
               <div className="user-info">
                 <img src={user3} alt="" />
-                <div>
+                <div className='details'>
                   <h3>Yemisi  Thomas</h3>
-                  <span>Educity, Nigeria</span>
+                  
                 </div>
               </div>
               <p>Choosing to pursue my primary school education at 
-                EducityFestac was one of the best decision i'v ever made.
-                The supportive community, state of the art facilities and
-                 commitment to academic excellencehave truely exceeded my expectation.
+              Redeemer's Light British Academy was one of the best decision i'v ever made.
+                
 
               </p>
             </div>
@@ -92,15 +89,14 @@ const Testimonials = () => {
             <div className="slide">
               <div className="user-info">
                 <img src={user1} alt="" />
-                <div>
+                <div className='details'>
                   <h3>Tola Bidemi</h3>
-                  <span>Educity, Nigeria</span>
+                
                 </div>
               </div>
               <p>Choosing to pursue my primary school education at 
-                EducityFestac was one of the best decision i'v ever made.
-                The supportive community, state of the art facilities and
-                 commitment to academic excellencehave truely exceeded my expectation.
+              Redeemer's Light British Academy was one of the best decision i'v ever made.
+                
 
               </p>
             </div>
